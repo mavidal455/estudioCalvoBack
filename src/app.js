@@ -15,7 +15,7 @@ app.use(resend)
 
 const corsOptions = {
   origin: [
-
+    'http://localhost:3001/'
   ],
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"],
